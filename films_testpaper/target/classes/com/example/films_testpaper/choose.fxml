@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.films_testpaper.Choose">
+   <children>
+      <Label layoutX="266.0" layoutY="24.0" text="Введите информацию о фильме" />
+      <Label layoutX="30.0" layoutY="70.0" text="Id" />
+      <Label layoutX="30.0" layoutY="109.0" prefHeight="17.0" prefWidth="95.0" text="Наименование" />
+      <Label layoutX="30.0" layoutY="192.0" text="Длительность" />
+      <Label layoutX="30.0" layoutY="235.0" text="Год выхода" />
+      <TextField layoutX="214.0" layoutY="188.0" />
+      <TextField layoutX="214.0" layoutY="66.0" />
+      <TextField layoutX="214.0" layoutY="148.0" />
+      <TextField layoutX="214.0" layoutY="105.0" />
+      <TextField layoutX="214.0" layoutY="231.0" />
+      <Label layoutX="30.0" layoutY="152.0" text="Жанр" />
+      <Button layoutX="263.0" layoutY="323.0" mnemonicParsing="false" text="Добавить фильм" onAction="#toInit"/>
+   </children>
+</Pane>
